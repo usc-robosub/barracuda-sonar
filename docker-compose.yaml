@@ -1,0 +1,14 @@
+services:
+  barracuda-sonar:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: root
+    container_name: barracuda-sonar
+    tty: true
+    network_mode: host
+    environment:
+      - VENDOR_ID=${VENDOR_ID}
+      - PRODUCT_ID=${PRODUCT_ID}
+    restart: always
+    privileged: true
