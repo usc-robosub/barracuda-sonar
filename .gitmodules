@@ -4,4 +4,4 @@
 [submodule "catkin_ws/src/ping_altimeter_driver"]
 	path = catkin_ws/src/ping_altimeter_driver
 	url = git@github.com:usc-robosub/ping_altimeter_driver.git
-    branch = 1-single-beam-sonar-ros-driver-implementation
+   	branch = main
