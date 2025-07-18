@@ -1,6 +1,3 @@
-[submodule "catkin_ws/src/ping360"]
-	path = catkin_ws/src/ping360
-	url = git@github.com:usc-robosub/ping360.git
 [submodule "catkin_ws/src/ping_altimeter_driver"]
 	path = catkin_ws/src/ping_altimeter_driver
 	url = git@github.com:usc-robosub/ping_altimeter_driver.git
