@@ -10,5 +10,10 @@ services:
     environment:
       - VENDOR_ID=${VENDOR_ID}
       - PRODUCT_ID=${PRODUCT_ID}
+      - ROS_MASTER_URI=http://192.168.2.1:11311
+      - ROS_HOSTNAME=192.168.2.148
+      - ROS_DISTRO=noetic
     restart: always
+    devices:
+      - "/dev/ttyAMA0:/dev/serial0"
     privileged: true
