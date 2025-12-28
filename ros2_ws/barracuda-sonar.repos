@@ -1,0 +1,10 @@
+repositories:
+  ping_altimeter_driver:
+    type: git
+    url: https://github.com/usc-robosub/ping_altimeter_driver.git
+    version: main
+
+  barracuda_sonar:
+    type: git
+    url: https://github.com/usc-robosub/barracuda_sonar.git
+    version: main

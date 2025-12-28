@@ -1,9 +1,0 @@
-<launch>
-    
-    <rosparam file="$(find barracuda_sonar)/config/ping_altimeter.yaml" command="load"/>
-    
-    <node pkg="ping_altimeter_driver" type="ping_altimeter_node.py" name="ping_altimeter_driver" output="screen">
-    </node>
-
-
-</launch>
